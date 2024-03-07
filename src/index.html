@@ -5,11 +5,60 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Bootstrap Template</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Мой первый сайт</title>
 </head>
 
 <body>
+    <div class="container">
+        <div class="card__wrapper" style="display: flex;">
+            <div class="card" style="width: 18rem; margin: 0 auto;">
+                <img src="img/vlad.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Комаров Владислав</h5>
+                    <p class="card-text">Ощутите вкус и аромат свежего перца с нашим продуктом! Наши перцы выращены с
+                        любовью и заботой, чтобы доставить вам настоящее удовольствие. Попробуйте наш перец в различных
+                        блюдах и ощутите разнообразие вкусов.</p>
+                    <a href="#" class="btn btn-primary">Купить перец</a>
+                </div>
+            </div>
+            <div class="card" style="width: 36rem; margin: 0 auto;">
+                <img src="img/vlad.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Комаров Владислав</h5>
+                    <p class="card-text">Ощутите вкус и аромат свежего перца с нашим продуктом! Наши перцы выращены с
+                        любовью и заботой, чтобы доставить вам настоящее удовольствие. Попробуйте наш перец в различных
+                        блюдах и ощутите разнообразие вкусов.</p>
+                    <a href="#" class="btn btn-primary">Купить перец</a>
+                </div>
+            </div>
+            <div class="card" style="width: 9rem; margin: 0 auto;">
+                <img src="img/vlad.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Комаров Владислав</h5>
+                    <p class="card-text">Ощутите вкус и аромат свежего перца с нашим продуктом! Наши перцы выращены с
+                        любовью и заботой, чтобы доставить вам настоящее удовольствие. Попробуйте наш перец в различных
+                        блюдах и ощутите разнообразие вкусов.</p>
+                    <a href="#" class="btn btn-primary">Купить перец</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="clickable__img">
+            <a href="img/vlad.jpg" target="_blank">
+                <div class="clickable__img-text display-6">Рассмотреть перец в близи</div>
+                <img src="img/vlad.jpg" alt="">
+            </a>
+        </div>
+
+        <div class="weather">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/55d8349d07/kazan/" data-label_1="KAZAN"
+                data-label_2="WEATHER" data-theme="original">KAZAN WEATHER</a>
+            <script>
+                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+            </script>
+        </div>
+    </div>
 </body>
 
 </html>
