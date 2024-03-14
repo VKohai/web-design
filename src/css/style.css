@@ -2,6 +2,17 @@
   font-size: 12px;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
+  font-family: "Courier New";
+}
+
+a {
+  color: dodgerblue;
+}
+a:visited {
+  color: red;
+}
+a:active {
+  color: aquamarine;
 }
 
 .container {
@@ -10,67 +21,56 @@
 }
 
 .title {
-  font-size: 14px;
+  font-family: Arial;
+  font-size: 18px;
   text-align: center;
 }
 
-ol li {
-  margin: 0;
-  padding: 0;
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
-ul li {
-  margin: 0;
-  padding: 0;
+body {
+  background-color: antiquewhite;
 }
 
-.contents__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 25px;
-  gap: 20px;
+.aside {
+  position: fixed;
+  right: 150px;
 }
-.contents__header {
-  font-weight: bold;
+
+.branches__wrapper {
+  margin: 0 auto;
+  width: 300px;
 }
-.contents__subheader {
-  position: relative;
-  position: absolute;
-  left: 12.5px;
+
+section {
+  padding: 15px;
 }
-.contents__item_subcontent {
+
+.subjects__subwrapper {
+  margin-bottom: 15px;
+}
+.subjects__subwrapper ul {
+  list-style-type: square;
+}
+.subjects__subwrapper ul li {
+  margin-left: 2px;
+}
+
+.aside {
+  background: wheat;
+  display: block;
+  padding: 30px;
+  border-radius: 16px;
+}
+.aside .nav__menu {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.contents__item_subcontent ul,
-.contents__item_subcontent ol {
-  margin-top: 17px;
-}
-.contents__item_disc {
-  list-style-type: disc;
-}
-.contents__item_text-center {
-  text-align: center;
-}
-.contents__sublist-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.contents__sublist-center ol li {
-  margin: 15px 0;
+.aside .nav__menu-item a {
+  font-size: 14px;
+  text-decoration: none;
 }
