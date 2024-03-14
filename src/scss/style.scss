@@ -21,70 +21,17 @@ a {
     margin: 0 auto;
 }
 
-.title {
-    font-family: Arial;
-    font-size: 18px;
-    text-align: center;
-}
-
-.subtitle {
-    font-size: 16px;
-    margin-bottom: 15px;
-}
 
 body {
     background-color: antiquewhite;
-}
-
-.aside {
-    position: fixed;
-    right: 150px;
-}
-
-.branches {
-    &__wrapper {
-        margin: 0 auto;
-        width: 300px;
-    }
 }
 
 section {
     padding: 15px;
 }
 
-.subjects {
-    &__subwrapper {
-        margin-bottom: 15px;
 
-        ul {
-            list-style-type: square;
-
-            li {
-                margin-left: 2px;
-            }
-        }
-    }
-}
-
-.aside {
-    background: wheat;
-    display: block;
-    padding: 30px;
-    border-radius: 16px;
-
-    .nav {
-        &__menu {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-
-            &-item {
-                a {
-                    font-size: 14px;
-                    text-decoration: none;
-                }
-
-            }
-        }
-    }
-}
+@import "blocks/title";
+@import "blocks/aside";
+@import "blocks/subjects";
+@import "blocks/branches";
