@@ -1,7 +1,10 @@
 * {
   font-size: 12px;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  font-family: "Courier New";
+}
+
+body {
+  background: url("../img/bg.jpeg");
 }
 
 .container {
@@ -11,6 +14,7 @@
 
 .title {
   font-size: 14px;
+  font-family: Arial;
   text-align: center;
 }
 
@@ -46,7 +50,6 @@ ul li {
   font-weight: bold;
 }
 .contents__subheader {
-  position: relative;
   position: absolute;
   left: 12.5px;
 }
