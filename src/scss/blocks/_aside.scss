@@ -2,22 +2,18 @@
     position: fixed;
     right: 150px;
     background: wheat;
-    display: block;
     padding: 30px;
     border-radius: 16px;
-
     .nav {
         &__menu {
             list-style-type: none;
             margin: 0;
             padding: 0;
-
             &-item {
                 a {
                     font-size: 14px;
                     text-decoration: none;
                 }
-
             }
         }
     }

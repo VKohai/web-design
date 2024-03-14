@@ -1,13 +1,9 @@
 .subjects {
     &__subwrapper {
         margin-bottom: 15px;
-
         ul {
             list-style-type: square;
-
-            li {
-                margin-left: 2px;
-            }
+            padding-left: 22px;
         }
     }
 }
