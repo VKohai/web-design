@@ -1,0 +1,12 @@
+.history {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__link {
+    margin: 15px auto 0 auto;
+    text-align: center;
+  }
+}
