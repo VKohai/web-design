@@ -48,7 +48,3 @@ section {
           justify-content: space-between;
   gap: 20px;
 }
-.history__link {
-  margin: 15px auto 0 auto;
-  text-align: center;
-}
