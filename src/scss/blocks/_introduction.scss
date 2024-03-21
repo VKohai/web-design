@@ -1,0 +1,17 @@
+.introduction {
+    text-indent: 20px;
+    padding: 20px;
+
+    &__header {
+        text-align: left;
+        font-weight: bold;
+    }
+
+    &__descr {
+        margin: 0;
+
+        &_ml-330 {
+            margin-left: 330px;
+        }
+    }
+}

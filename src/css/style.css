@@ -39,6 +39,33 @@ section {
   margin-bottom: 15px;
 }
 
+.introduction {
+  text-indent: 20px;
+  padding: 20px;
+}
+.introduction__header {
+  text-align: left;
+  font-weight: bold;
+}
+.introduction__descr {
+  margin: 0;
+}
+.introduction__descr_ml-330 {
+  margin-left: 330px;
+}
+
+.labs {
+  margin-top: 20px;
+}
+.labs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+}
+
 .history__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
