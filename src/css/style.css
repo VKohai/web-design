@@ -3,6 +3,10 @@
   font-family: "Courier New";
 }
 
+a {
+  color: yellow;
+}
+
 body {
   background: url("../img/bg.jpeg");
 }
